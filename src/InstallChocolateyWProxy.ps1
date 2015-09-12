@@ -1,6 +1,6 @@
 ﻿<#
     Copyright (c) 2015 Tadahiro Ishisaka All rights reserved.
-    This software is released under the MIT License, see LICENSE.txt.
+    This software is released under the Apache License Version 2.0, see LICENSE(Apache License 2.0).
 #>
 $url = 'https://chocolatey.org/install.ps1'
 
@@ -11,7 +11,7 @@ if (!$wc.Proxy.IsBypassed($url)) {
         $cred = get-credential
         $creds = $cred.GetNetworkCredential();
     }
-    $proxyaddress = $webclient.Proxy.GetProxy($url).Authority
+    $proxyaddress = $wc.Proxy.GetProxy($url).Authority
     Write-host "Using this proxyserver: $proxyaddress"
     $proxy = New-Object System.Net.WebProxy($proxyaddress)
     $proxy.Credentials = $creds

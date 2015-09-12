@@ -11,12 +11,9 @@ srcディレクトリにあるInstallChocolateyWProxy.ps1を管理者権限で�
 
 ## License
 
-このスクリプトはMITライセンスです。
+このスクリプトはApache License Version 2.0ライセンスです。
 
 このスクリプトはChocolateyのソースコードを参照しており、そのライセンス、権利者については以下を参照してください。
 
-* Chocolatey は Apache License 2の元に配布されています。
+* Chocolatey は Apache License Version 2.0の元に配布されています。
 * Chocolateyの権利者に関しては、CREDIT of Chocolateyを参照してください。
-
-
-
