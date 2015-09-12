@@ -1,0 +1,2 @@
+# InstallChocolateyWithProxy
+NTLM認証のあるPROXY環境下でChocolateyをインストールするためのスクリプト
